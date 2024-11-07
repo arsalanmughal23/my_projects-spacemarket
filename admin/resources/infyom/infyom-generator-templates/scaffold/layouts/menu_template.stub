@@ -1,0 +1,9 @@
+@canany(['$MODEL_NAME_PLURAL_SNAKE$.index', '$MODEL_NAME_PLURAL_SNAKE$.create', '$MODEL_NAME_PLURAL_SNAKE$.show', '$MODEL_NAME_PLURAL_SNAKE$.edit', '$MODEL_NAME_PLURAL_SNAKE$.destroy'])
+    <li class="nav-item">
+        <a href="{{ route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_SNAKE$.index') }}"
+        class="nav-link {{ Request::is('$ROUTE_PREFIX$$MODEL_NAME_PLURAL_SNAKE$*') ? 'active' : '' }}">
+            <p>$MODEL_NAME_PLURAL_HUMAN$</p>
+        </a>
+    </li>
+@endcan
+

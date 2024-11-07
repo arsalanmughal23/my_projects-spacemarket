@@ -1,0 +1,12 @@
+pipelines:
+  branches:
+    devops:
+    - step:
+          name: Connect to EC2 instance 
+          image: ubuntu:latest
+          script:
+             - cat <<< "$PEM_KEY" | base64 --decode > tek-staging.pem
+             - chmod 400 tek-staging.pem
+             - apt-get update
+             - apt-get -y install openssh-client
+             - ssh -v -o StrictHostKeyChecking=no -i tek-staging.pem administrator@$MACHINE_IP "cd /home/administrator/php/spacemartets && git fetch origin && git reset --hard origin/devops && cd admin/ && sudo docker-compose down && sudo docker-compose up --build -d"

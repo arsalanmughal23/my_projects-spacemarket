@@ -1,0 +1,40 @@
+:root {
+    --color_primary: #1a1a1a;
+    --color_seconday: #FF5757;
+    --color_seconday_dark: #df4d4d;
+}
+
+
+.main-sidebar {
+    background-color: var(--color_primary);
+}
+.sidebar-dark-primary .nav-sidebar>.nav-item>.nav-link.active, .sidebar-light-primary .nav-sidebar>.nav-item>.nav-link.active {
+    background-color: var(--color_seconday);
+}
+
+.bg-primary, .bg-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background-color: var(--color_seconday) !important;
+    border-color: var(--color_seconday) !important;
+}
+
+.btn-primary, .btn-primary:hover, .page-item.active .page-link {
+    background-color: var(--color_seconday);
+    border-color: var(--color_seconday);
+}
+a {
+    color: var(--color_seconday);
+}
+a:hover {
+    color: var(--color_seconday_dark);
+}
+
+.note-editable {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.admin section.content>.content.list_view>.card>.card-body>.card-footer.clearfix{ display: none; }
+
+.select2-container--default .select2-selection--single { height: auto; }
+.select2-container .select2-selection--single { height: 40px; }
+.select2-container--default .select2-selection--single .select2-selection__arrow { height: 40px; }

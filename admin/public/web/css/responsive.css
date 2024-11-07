@@ -1,0 +1,1849 @@
+@media (max-width: 1680px) {
+    .video-slider .swiper-slide-active .vid-inner {width: 830px !important;}
+    .trade-inner .content h3.f45 {
+        font-size: 38px;
+    }
+    .video-slider {
+        height: 520px;
+    }
+    .video-outer .swiper-pagination-videoslider{
+        bottom: -40px;
+    }
+    section.video-sec{
+        padding-bottom: 70px;
+    }
+
+    .shares-body    section.inner-banner { padding-bottom: 400px;}
+    .concept-wrapper {margin:120px 0;}
+    
+    .shares-banner .planet-left {
+        transform: translateX(-75%);
+        left: -410px;
+        top: 0;
+    }
+    .shares-banner .planet-left::before {
+        content: '';
+        width: 650px;
+        height: 650px;
+        background-blend-mode: screen;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        background: radial-gradient(54% 54% at 50% 50%, #E23232 53%, #CC2020 59%, #A30C15 65%, #84050578 72%, #5f040400 78%, #41040400 83%, #29000000 88%, #01010100 92%);
+        z-index: -1;
+    }
+    .trade-start p, .trade-start p span {
+        font-size: 18px !important;
+    }
+}
+
+
+@media (max-width:1440px) { 
+    .trading-fx-revolution {
+        padding: 30px 0;
+    }
+    .trading-fx-revolution .interstellar-wrapper {
+        height: 350px;
+    }
+    .trading-fx-revolution:after { 
+        background-size: 79% !important;
+    } 
+    .banner .planet { 
+    height: 580px;
+    width: auto !important;
+    }
+
+    .banner .planet-container {
+        position: relative;
+        width: 100%;
+        height: 580px;
+    }
+
+    .video-title {
+        padding-top: 100px;
+        padding-bottom: 0px;
+    }
+    
+    .video-outer {
+        margin-top: -20px;
+    }
+
+    .video-slider {
+        height: 580px;
+    }
+
+    .vid-inner .content span.date {
+        display: block;
+        color: #808080;
+        margin-bottom: 10px;
+    }
+    .vid-inner .content span.description {
+        font-size: 16px;
+        line-height: normal;
+        color: #fff;
+        opacity: 1; 
+    }
+
+
+
+
+    .video-slider .swiper-slide-active .vid-inner {width: 650px !important;} 
+    .trade-inner .content h3.f45 {
+        font-size: 38px;
+    }
+
+ .shares-body    section.inner-banner { padding-bottom:200px;}
+ .concept-wrapper {margin:120px 0;}
+ 
+.video-outer .swiper-pagination-videoslider { bottom: 50px; }
+
+
+
+
+
+.trade-choices{padding: 60px 0;}
+section.reviews-sec {margin: 80px 0 40px;padding-bottom:60px;}
+.reviews-sec .title-wrap {
+    margin-bottom: 30px;
+}
+.swiper-pagination-reviews-slider {z-index: 9;}
+
+
+.account-inner::before {
+    background: url(../images/table/table-big-planet.png);
+    display: inline-block;
+    position: absolute;
+    top: -30%;
+    right: -5%;
+    width: 713px;
+    height: 713px;
+    content: '';
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section.account-types {padding-bottom: 50px;}
+.rev-planet img.rev-planet-top, .rev-planet img.rev-planet-bottom {
+    position: absolute;
+    right: 0;
+    width: 302px;
+    height: auto;
+    transform: translateX(0);
+    transition: all 0.8s ease-in-out;
+    bottom: 0;
+    z-index: -5;
+}
+
+
+
+
+section.inner-banner.forex-banner {padding:250px 0 450px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mountain-slider {width: 100%;  text-align: center; left: 0px;}
+.mountain-slider img{width: 100%;}
+
+
+
+.sub-content .sub-inner .image  {left: 0px;}
+.sub-content .sub-inner .image img{max-height: 700px;}
+ 
+
+
+    .sub-content .content p {
+        font-size: 21px;
+        line-height: 36px;
+    }
+    .sub-content .content a {
+        margin-top: 30px;
+    }
+
+    .trade-inner .content p  {font-size: 28px;}
+    .trade-inner .content p br { display: none; }
+    .trade-inner .content h3.f45 {font-size: 32px;}
+
+
+
+  
+
+    section.inner-banner {
+        padding: 330px 0 200px;
+    }
+
+    
+
+
+
+
+
+}
+
+
+@media (max-width: 1366px) {
+    section.video-sec{
+        padding-bottom: 0;
+    }
+    section.gethelp-page {
+        padding-top: 170px;
+        padding-bottom: 75px;
+    }
+    section.gethelp-page .hand {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        z-index: -1;
+        transform: translateY(calc(-50%));
+    }
+    section.inner-banner.indices-banner{
+        padding-bottom: 50px;
+    }
+    .with-help, .deposit-help {
+        padding-bottom: 75px;
+    }
+    .inner-banner.deposit-banner {
+        padding-bottom: 0;
+    }
+    .linebar-area {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .shares-banner .content-wrap {
+        position: relative;
+        top: -130px;
+    }
+    .galactic .title-wrap {
+        margin-bottom: 50px;
+    }
+    section.about-mission {
+        padding-bottom: 240px;
+    }
+    .innovate .content-wrap p{
+        font-size: 47px;
+    }
+    .affilite-banner .content-wrap {
+        position: relativepaymen;
+        z-index: 999;
+    }
+    .scaletd-animation {
+        animation: scaletd-animation 9s cubic-bezier(0.5, 0.04, 0.2, 1) infinite;
+      }
+      @keyframes scaletd-animation {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+         transform: scale(1.2);;
+        }
+        100% {
+            transform: scale(1);
+        }
+        
+      }
+    .inner-banner .content-wrap h1{
+        font-size: 67px;
+        font-weight: 850;
+        line-height: 1.2;
+    }
+   ::placeholder {font-size: 16px;}
+.account-inner::before { 
+        top: -37%;
+        right: 0%;
+        background-size: 50%;
+        
+    }
+
+
+    .table-outer .table-planet img {width: 160px; height: auto; margin:  0 auto;}
+ 
+    .sendmessage , .sendmessage {padding: 15px !important;display: flex;justify-content: center;align-items: center;gap: 5px;}
+    .sendmessage , .sendmessage:hover {padding:15px}
+    .sendmessage span{
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    /* .types-wrap{padding-bottom:50px; }
+    .types-wrap .top-header, .types-wrap .bottom-data {margin-bottom:0px; padding: 20px 0; border-radius: 10px; }
+    .types-wrap .bottom-data li {font-size: 14px;}
+    .table-outer .btn-small  { padding:15px 0; font-size: 18px; font-weight: 400; }
+    .table-outer .btn-small a {padding:0px 0; font-size: 18px; font-weight: 400; } */
+
+
+
+    .form-joinorbit input {    background-size: 25px !important; padding-left: 90px; font-size:  16px; }
+
+    .form-joinorbit textarea {     font-size:  16px; }
+
+
+    section.inner-banner.forex-banner .content-wrap p {
+        font-size: 16px !important;
+        font-weight: 400;
+        line-height: 28px;
+        margin: 0;
+    }
+    .concept-wrapper p , .space-market-wrapper p {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 40px;
+        color: #eee;
+    }
+
+ 
+    .trade-inner .content p {min-height: 120px; font-size: 18px; line-height: 30px;}
+    .trade-inner .content h3 {font-size: 30px; line-height: 40px;}
+
+    
+    .trade-choices  .trade-inner {padding:50px; }
+   
+
+
+
+    .trade-choices  .trade-inner .image img{ width: 100px;}
+    .trade-start {display: flex; align-items: center;}
+    .trade-start h2,
+    .trade-start h2 b {
+        font-size: 50px;
+        line-height: 68px;
+        font-weight: 800;
+    }
+
+    .trade-inner .content h3 {font-size: 30px; line-height: 40px;}
+    .trade-start h2,
+    .trade-start h2 b {
+        font-size:70px;
+        line-height:90px;
+        font-weight: 800;
+    }
+.trade-choices {padding-left: 5%;}
+.trade-start p, .trade-start p span {font-size: 18px !important;}
+
+
+.trading-fx-revolution:after{ background-size:90% !important; }
+
+.space-market-wrapper {
+    text-align: center;
+    padding: 75px 0;
+}
+
+.shares-body section.inner-banner {
+    padding-bottom: 100px;
+}
+.concept-wrapper {
+    margin: 60px 0;
+}
+.trading-fx-revolution {padding: 30px 0;}
+.trading-fx-revolution .interstellar-wrapper {height: 350px;}
+
+
+
+.commodities-content .image-wrap {right: 0px !important;}
+.commodities-content .image-wrap img{width: 320px;max-width: 100%;}
+section.inner-banner {padding: 330px 0 280px;}
+.commodities-content img.commodities-item {
+    position: absolute;
+    top: -37px;
+    right: calc(50% - 50px);
+}
+
+
+.trading-fx-revolution .interstellar-wrapper button,
+.trading-fx-revolution .interstellar-wrapper a {margin-top: 40px;}
+.trading-fx-revolution:after { 
+    background-size: 82% !important;
+} 
+
+footer {
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+
+
+ 
+
+.shares-banner .planet-left {
+    transform: translateX(-75%);
+    left: -454px;
+    top: 0;
+}
+
+
+
+
+.shares-banner .planet-left::before {
+    content: '';
+    width: 650px;
+    height: 650px;
+    background-blend-mode: screen;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background: radial-gradient(54% 54% at 50% 50%, #E23232 53%, #CC2020 59%, #A30C15 65%, #84050578 72%, #5f040400 78%, #41040400 83%, #29000000 88%, #01010100 92%);
+    z-index: -1;
+}
+
+section.inner-banner.account-types-banner.account-types.account-inner:before {
+    top: -15%;
+    right: -35%;
+}
+
+
+.trade-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.trade-start h2,
+.trade-start h2 b {
+    font-size: 58px;
+    line-height: 76px;
+    font-weight: 800;
+}
+
+
+.reviews-sec .listener-item p {
+    font-size: 16px; 
+}
+
+.reviews-sec .listener-item h3 {margin-bottom: 10px;}
+ 
+
+
+
+ .partnerboxes-platform .partnerboxes-platform-item p {font-size: 12px !important;line-height: 21px;}
+ .chart-your-own-path p { font-size: 18px;  line-height: 40px;   font-weight: 400;
+}
+
+
+.f75 {font-size: 75px !important;}
+section.innovate-sec .right-chunk img {
+    width: 68%;
+}
+
+section.innovate-sec .right-chunk {
+    text-align: right;
+    width: fit-content;
+    bottom: -90px;
+    right: -355px;
+}
+
+section.innovate-sec {padding-bottom: 271px;}
+
+.about-mission .left-chunk {bottom: -220px;left: -130px;}
+
+.about-mission .left-chunk .chunk {
+    width: 451px;
+}
+
+.concept-wrapper .heading-inner h3 {
+    font-size: 67px;
+    line-height: 67px;
+}
+.concept-wrapper .heading-inner h2.f78,
+.concept-wrapper .heading-inner h2,
+.indices-explore .heading-inner h2 {
+    font-size: 67px !important;
+    line-height: 67px;
+    padding-top: 0;
+}
+}
+
+@media (max-width:1280px) {
+
+    .trade-start h2,
+    .trade-start h2 b {
+        font-size: 57px;
+        line-height: 76px;
+        font-weight: 800;
+    }
+    .trade-choices {padding-left: 5%;}
+    .trade-start p, 
+    .trade-start p span 
+    {font-size: 18px !important;}
+
+    .about-mission .left-chunk {
+        left: -80px;
+        bottom: -290px;
+    }
+    
+    section.innovate-sec .right-chunk {
+        right: -386px;
+    }
+} 
+
+
+
+/* siraj reponsive media _start */
+@media (max-width: 1199px) {
+    .shares-banner .content-wrap {
+        position: relative;
+        top: 0px;
+    }
+    /* boostrap xl End Point */
+    :root {
+        --min-font-size: 16px;
+        --max-font-size: 18px;
+        --scale-factor: 1.2;
+    }
+
+    html {
+        font-size: clamp(var(--min-font-size), 1.5vw, var(--max-font-size));
+    }
+    
+    body {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: calc(1rem * var(--scale-factor) * 2);
+    }
+    h1.hmgr{
+        font-size: calc(1.5rem * var(--scale-factor) * 2);
+    }
+    h2 {
+        font-size: calc(1rem * var(--scale-factor) * 1.75);
+    }
+    .inner-banner .content-wrap p,
+    .account-types-banner.inner-banner .content-wrap h1 ~ p {
+        width: 100%;
+        text-align: center;
+    }
+    .inner-banner .content-wrap h1{
+        text-align: center;
+    }
+    .forex-explore.concept-wrapper .heading-inner h3,
+    .forex-explore.concept-wrapper .heading-inner h3 span  {
+        text-align: center;
+        --min: 1.8rem;
+        --val: 5vw;
+        --max: 46px;
+        font-size: clamp(var(--min), var(--val), var(--max)) !important;
+        line-height: clamp(var(--min), var(--val), var(--max));
+    }
+    
+    .forex-explore.concept-wrapper .heading-inner h2 {
+        text-align: center;
+        --min: 2rem;
+        --val: 5vw;
+        --max: 52px;
+        font-size: clamp(var(--min), var(--val), var(--max)) !important;
+        line-height: 1.3;
+    }
+    .concept-wrapper p, .space-market-wrapper p {
+        text-align: center;
+        font-size: clamp(16px, 2vw, 20px) !important;
+        line-height: 1.8;
+    }
+    .space-heading h3dd {
+        font-size: clamp(1.5rem, 5vw, 30px);
+        line-height: 1.3;
+    }
+    .indices-space .space-heading h3 span,
+    .indices-space .space-heading h3 {
+        font-size: clamp(1.4rem, 5vw, 24px) !important;
+    }
+    .space-heading h3 strong,
+    .space-heading h3 b {
+        font-size: clamp(2.8rem, 7vw, 73px);
+        font-weight: 800;
+    }
+    .space-heading h3 strong span{
+        font-size: clamp(2.8rem, 7vw, 73px) !important;
+        font-weight: 800;
+    }
+
+    .inner-banner .content-wrap h1 {
+        font-size: 95px;
+        font-size: clamp(3.8rem, 7vw, 95px);
+        line-height: 1.2;
+    }
+    .account-types-banner.inner-banner .content-wrap h1 {
+        font-size: clamp(2.8rem, 7vw, 95px);
+    }
+    .indices-explore .heading-inner h3 {
+        text-align: center;
+        font-size: clamp(3rem, 7vw, 78px);
+        line-height: 1;
+    }
+    .indices-explore .heading-inner h2 {
+        text-align: center;
+        font-size: clamp(3rem, 7vw, 78px);
+        line-height: 1;
+        padding-top: 0;
+        padding-bottom: 40px;
+        margin-bottom: 0;
+    }
+    .share-seize.concept-wrapper .heading-inner h3{
+        text-align: center;
+        font-size: clamp(3rem, 5vw, 78px);
+        line-height: clamp(3rem, 5vw, 78px);
+    }
+
+    .share-seize.concept-wrapper .heading-inner h2 {
+        text-align: center;
+        font-size: clamp(3rem, 5vw, 78px) !important;
+        line-height: 1.3;
+        padding-top: 0 !important;
+        padding-bottom: 30px;
+    }
+    .inner-banner.commodities-banner .content-wrap h1{
+        font-size: clamp(3rem, 5vw, 75px) !important;
+    }
+    .inner-banner.commodities-banner .content-wrap p {
+        font-size: clamp(16px, 2vw, 20px);
+        width: 100%;
+    }
+    .commodities-energies-body .heading-inner h2,
+    .commodities-energies-body .heading-inner h2 span,
+    .concept-wrapper.commodities-content h3,
+    .concept-wrapper.commodities-content h2 {
+        font-size: clamp(2.8rem, 5vw, 62px) !important;
+        text-align: center;
+    }
+    .concept-wrapper.commodities-content h3 {
+        line-height: 52px;
+    }
+    .commodities-space .space-heading h3 span,
+    .commodities-space .space-heading h3,
+    .paymentmethod-banner.inner-banner .content-wrap p {
+        font-size: clamp(18px, 2vw, 24px) !important;
+    }
+    .paymentmethod-banner.inner-banner .content-wrap h1 {
+        font-size: clamp(3rem, 7vw, 95px);
+    }
+    .inner-banner.withdrawal-banner .content-wrap h1,
+    .latest-upperlayer h3,
+    .about-banner .content-wrap h5,
+    .gethelp-wrap .title-wrap h5 {
+        font-size: clamp(1.4rem, 5vw, 35px);
+    }
+    .inner-banner.withdrawal-banner .content-wrap h1 strong,
+    .inner-banner.withdrawal-banner .content-wrap h1 b,
+    .help-para h3,
+    .help-para h2 {
+        font-size: clamp(2.5rem, 7vw, 48px);
+    }
+    .withdrawal-wrapper h2 {
+        font-size: clamp(18px, 2vw, 28px);
+    }
+    .withdrawal-wrapper h2 strong,
+    .withdrawal-wrapper h2 b {
+        font-size: clamp(3rem, 5vw, 60px);
+    }
+    .inner-banner.deposit-banner .content-wrap h1 {
+        line-height: clamp(1.8rem, 5vw, 38px);
+    }
+    .inner-banner.deposit-banner .content-wrap h1 strong,
+    .inner-banner.deposit-banner .content-wrap h1,
+    .inner-banner.deposit-banner .content-wrap h1 b {
+        font-size: clamp(1.8rem, 5vw, 38px);
+        line-height: 1.2;
+    }
+    .h1-one,
+    .home-banner h1 {
+        line-height: clamp(16px, 5vw, 36px);
+    }
+    .h1-two, .h1-three, .h1-four,
+    .home-banner h1 b {
+        font-size: clamp(3.2rem, 7vw, 48px);
+        line-height: clamp(3.5rem, 7vw, 48px);
+        display: block;
+    }
+    .video-title h2, .video-title h2 span{
+        font-size: clamp(2.8rem, 7vw, 55px);
+    }
+    .no-video h2, .no-video h2 span {
+        font-size: clamp(2rem, 7vw, 43px);
+    }
+    .sub-content .content h2,
+    .blogpage-heading h1 {
+        font-size: clamp(2rem, 7vw, 42px);
+    }
+    .sub-content .content span {
+        font-size: clamp(18px, 7vw, 26px);
+    }
+    .sub-content .content p,
+    .table-outer .content p,
+    .affiliate-content p {
+        font-size: clamp(18px, 7vw, 20px);
+    }
+    .table-outer .content p{
+        text-align: center;
+    }
+    .table-outer .content h2,
+    .trade-start h2,
+    .trade-start h2 span,
+    .trade-start h2 b {
+        font-size: clamp(2rem, 7vw, 60px);
+        line-height: clamp(3.5rem, 7vw, 60px);;
+        text-align: center;
+    }
+    .trade-start h2,
+    .trade-start h2 span,
+    .trade-start h2 b {
+        line-height: 1.2;
+    }
+    .trade-inner .content h3.f45 {
+        line-height: clamp(1.8rem, 7vw, 30px);
+    }
+    .reviews-sec .title-wrap h2 {
+        font-size: clamp(2rem, 7vw, 46px);
+    }
+    .listener-item h3,
+    .galactic .title-wrap p {
+        font-size: clamp(1.2rem, 7vw, 30px);
+    }
+    .affilite-banner.inner-banner .content-wrap h1,
+    .space-heading h3 span.f60,
+    .affiliate-space .space-heading h3 {
+        font-size: clamp(2.8rem, 7vw, 60px) !important;
+        line-height: clamp(3.5rem, 7vw, 60px) !important;
+        text-align: center;
+    }
+    .affiliate-content .f55,
+    .affiliate-content h2 {
+        font-size: clamp(2.5rem, 7vw, 55px) !important;
+        line-height: clamp(3.5rem, 7vw, 55px);
+    }
+    .inner-banner .content-wrap h1.f52,
+    .chart-your-own-path h2.f50,
+    .chart-your-own-path h2,
+    section.contact-us-page .cheading h1,
+    .white-label-banner.inner-banner .content-wrap h1 {
+        font-size: clamp(2rem, 7vw, 52px) !important;
+        line-height: clamp(2.8rem, 7vw, 55px) !important;
+    }
+    .blog-wrapper-detail .dateitem{
+        font-size: clamp(1rem, 7vw, 18px);
+    }
+    .blog-details {
+        /* text-align: center; */
+    }
+    h1.hmgr,
+    .gethelp-wrap .title-wrap h1, 
+    .gethelp-wrap .title-wrap h1 span,
+    .gethelp-wrap .title-wrap {
+        text-align: center;
+    }
+    .about-banner.inner-banner .content-wrap h1,
+    .gethelp-wrap .title-wrap h1, 
+    .gethelp-wrap .title-wrap h1 span {
+        font-size: clamp(2rem, 7vw, 42px);
+    }
+    .innovate .content-wrap p {
+        font-size: clamp(2rem, 5vw, 32px);
+        line-height: clamp(3.7rem, 5vw, 42px);
+    }
+    .innovate-sec .content-wrap h2,
+    .about-mission .content-wrap h2,
+    .galactic .title-wrap h2,
+    .faq-page .cheading h2 {
+        font-size: clamp(2.2rem, 7vw, 60px);
+        line-height: clamp(3rem, 9vw, 80px);
+        text-align: center;
+    }
+    .innovate-sec .content-wrap p,
+    .about-mission .content-wrap p,
+    .inner-banner.join-our-orbit .content-wrap h1 strong,
+    .inner-banner.join-our-orbit .content-wrap p
+     {
+        font-size: clamp(18px, 5vw, 24px);
+        text-align: center;
+    }
+    .faq-page .cheading h1,
+    .inner-banner.join-our-orbit .content-wrap h1 {
+        font-size: clamp(1.4rem, 7vw, 48px);
+        line-height: clamp(2.4rem, 7vw, 48px);
+        text-align: center;
+    }
+    h1.hmgr{
+        font-size: clamp(1.5rem, 6vw, 48px);
+        line-height: clamp(2rem, 7vw, 48px);
+    }
+    /* font size adjustment _end */
+    .switch-planet img {
+        width: 350px;
+        max-width: 100%;
+    }
+    section.inner-banner.indices-banner{
+        text-align: center;
+    }
+    .side-menu-close{
+      display: inline-flex !important;
+    }
+    .desk-nav{
+      display: none !important;
+    }
+    .hand-wrap img.main-img {
+        position: relative;
+        top: 0;
+        right: 0;
+        max-width: 100%;
+    }
+    .hand-wrap{
+        padding-top: 50px;
+    }
+    .hand-wrap img.main-img {
+        position: relative;
+        top: 0;
+        right: 0;
+        max-width: 100%;
+    }
+    
+    .hand-wrap img.gif-img {
+        top: 7.3vw;
+        left: 33vw;
+        width: 40vw;
+    }
+    section.inner-banner.forex-banner,
+    section.inner-banner.indices-banner,
+    section.inner-banner.shares-banner,
+    section.inner-banner.commodities-banner,
+    section.inner-banner.account-types-banner,
+    section.inner-banner.paymentmethod-banner,
+    section.inner-banner.withdrawal-banner,
+    .inner-banner.deposit-banner,
+    section.inner-banner.white-label-banner,
+    section.inner-banner.about-banner,
+    section.gethelp-page,
+    section.faq-page,
+    section.inner-banner.join-our-orbit,
+    section.contact-us-page {
+        padding-bottom: 25px;
+        padding-top: 100px;
+    }
+    section.affilite-banner.inner-banner,
+    section.inner-banner.white-label-banner,
+    .blog-wrapper,
+    section.inner-banner.about-banner,
+    section.gethelp-page {
+        padding-top: 140px;
+    }
+    section.affilite-banner.inner-banner{
+        padding-bottom: 80px;
+    }
+    section.concept-wrapper.forex-explore{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .space-market-wrapper {
+        padding: 25px 0;
+    }
+    .space-marketing-listing ul li:last-child {
+        margin-bottom: 0;
+    }
+    .space-heading {
+        margin-bottom: 30px;
+    }
+    .indices-explore img,
+    .share-seize img.img-full {
+        width: auto;
+        max-width: 100%;
+        margin-top: 30px;
+    }
+    .indices-wrap {
+        margin-top: 50px;
+    }
+    .concept-wrapper{
+        margin:25px 0;
+    }
+    .mountain-slider img {
+        width: auto;
+        max-width: 100%;
+    }
+    .mountain-slider {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    .mount-wrap {
+        padding-top: 50px;
+    }
+    .commodities-content img.commodities-item {
+        position: relative;
+        top: 0;
+        right: 80px;
+        display: none;
+        display: none;
+    }
+    
+    .commodities-content .image-wrap {
+        position: relative;
+        top: 0;
+        right: 0 !important;
+        margin-top: 120px;
+    }
+
+    .switch-planet {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: unset;
+        text-align: center;
+    }
+    .commodities-energies-body .heading-inner h2 {
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+    .commodities-content h3 {
+        padding-top: 0px;
+    }
+    .commodities-content h2 {
+        padding-bottom: 30px;
+    }
+    .commodities-content .content-wrap {
+        padding: 40px;
+    }
+    .commodities-content .content-wrap p {
+        margin-bottom: 0;
+    }
+    section.inner-banner.account-types-banner.account-types.account-inner:before {
+        right: -42%;
+        top: -10%;
+    }
+
+    section.inner-banner.account-types-banner.account-types.account-inner:after {
+        transform: rotate(270deg) translateX(0px) translateY(0);
+        position: relative;
+        height: 358px;
+        display: block;
+        width: 250px;
+        left: calc(50% - 118px);
+        top: 0;
+        background-position: center;
+        background-size: contain;
+        aspect-ratio: 9/13;
+        width: 250px;
+        height: auto;
+    }
+    .types-wrap .top-header.mobile-header {
+        grid-template-columns: 1fr;
+        border-right: 1px solid #ff575760;
+        border-bottom: unset;
+        padding: 0;
+        padding-right: 10px;
+        width: 250px;
+    }
+    
+    .types-wrap .top-header.mobile-header li {
+        text-align: left;
+        padding: 15px;
+    }
+    
+    .types-wrap {
+        display: flex;
+    }
+    .types-wrap ul.wrap-ul .inner-wrap::-webkit-scrollbar {
+        height: 5px;
+        width: 5px;
+    }
+    .types-wrap ul.wrap-ul {
+        overflow-x: scroll;
+        width: 100%;
+        margin-left: 15px;
+    }
+    
+    .types-wrap .bottom-data {
+        grid-template-columns: 1fr;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    
+    .types-wrap ul.wrap-ul .inner-wrap > li {
+        width: 24vw;
+        display: table-cell;
+    }
+    
+    .types-wrap ul.wrap-ul .inner-wrap > li:first-child {
+        display: none !important;
+    }
+    
+    .types-wrap ul.wrap-ul .inner-wrap {display: flex;width: max-content;}
+    
+    ul.bottom-data:hover {
+    }
+    
+    .types-wrap .bottom-data li:first-child {
+        text-align: center;
+    }
+    .types-wrap .bottom-data li.leaft-head {
+        justify-content: center;
+    }
+    .types-wrap .bottom-data li {
+        padding: 15px;
+        line-height: 20px;
+        /* height: 48px; */
+    }
+    ul.bottom-data:hover {
+        background-color: transparent;
+    }
+    .withdrawal-banner img {
+        max-width: 100%;
+        margin-top: 30px;
+    }
+    .linebar-area {
+        margin: 1% auto;
+    }
+    .help-para{
+        margin: 25px 0;
+    }
+    .form-joinorbit input, .contactselect-dept #selectserviceitem button.select-department-btn {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .contactselect-dept #selectserviceitem button.select-department-btn:after,
+    .contactselect-dept #selectserviceitem button[aria-expanded="true"].select-department-btn:after {
+        background-position: center;
+        top: 15px;
+        background-size: 10px;
+        right: 15px;
+    }
+    .contactselect-dept #selectserviceitem button.select-department-btn,
+    .contactselect-dept #selectserviceitem button[aria-expanded="true"].select-department-btn:after{
+        right: 15px;
+    }
+    .home-banner a.btn {
+        margin-top: 30px;
+    }
+    .video-title h2, .video-title h2 span,
+    .video-title p {
+        text-align: center;
+    }
+    .video-title {
+        padding-top: 50px;
+    }
+    .video-slider {
+        height: 470px;
+        margin-bottom: 40px;
+    }
+    .video-slider .swiper-slide .vid-inner {
+        position: relative !important;
+        width: 650px !important;
+        max-width: 100%;
+    }
+    section.video-sec {
+        padding-bottom: 0px;
+        margin-bottom: 0;
+    }
+    .account-inner::before {
+        top: -20%;
+        right: -20;
+    }
+    .sub-content .sub-inner .image {
+        position: relative;
+        top: 0;
+        transform: translateY(0px);
+        margin-top: 30px;
+    }
+    
+    .sub-content .sub-inner {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 50px 0;
+    }
+    
+    .sub-content {
+        position: relative;
+        transform: translateY(0px);
+    }
+    .sub-slider {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+    .sub-slider .image-wrap {
+        height: 100%;
+    }
+    
+    .sub-slider .image-wrap img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        max-height: 100%;
+    }
+    .sub-content .content {
+        margin-right: 0;
+        padding: 35px;
+        max-width: 100%;
+    }
+    .trade-choices {
+        padding: 15px;
+    }
+    
+    .trade-start h2,
+    .trade-start h2 b {
+        text-align: center;
+    }
+    
+    .trade-start {
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    .trade-slider {
+        margin-bottom: 30px;
+    }
+    .reviews-slider .swiper-slide.swiper-slide-active .listener-item {
+        transform: scale(1);
+        width: 100%;
+        left: 0;
+    }
+    .reviews-slider {
+        padding: 30px 0px 60px;
+    }
+    
+    section.reviews-sec {
+        padding: 0px 0;
+        margin: 50px 0 0px;
+    }
+    
+    .reviews-slider .swiper-slide.swiper-slide-active .listener-item,
+    .reviews-slider .swiper-slide .listener-item {
+        padding: 35px 25px 25px;
+    }
+    
+    .reviews-slider .swiper-slide.swiper-slide-active .listener-item span.quote-icon,
+    .reviews-slider .swiper-slide .listener-item span.quote-icon{
+        width: 50px;
+        height: 41px;
+        mask-size: 50px;
+        top: -22px;
+    }
+    section.account-types {
+        padding-top: 50px;
+    }
+    .banner .planet {
+        padding-right: 5.4%;
+    }
+ 
+    .banner .planet-container {
+        height: 550px;
+        width: auto !important;
+    }
+    .scaletd-animation {
+        width: 390px !important;
+        max-width: 100%;
+        animation: scaletd-animation 9s cubic-bezier(0.5, 0.04, 0.2, 1) infinite;
+        margin-top: 70px;
+        margin-bottom: 40px;
+    }
+    @keyframes scaletd-animation {
+        0% {
+          transform: scale(1);
+        }
+        50% {
+         transform: scale(1.1);;
+        }
+        100% {
+            transform: scale(1);
+        }
+        
+      }
+    .affiliate-content ul {
+        padding: 0;
+    }
+    .planet-items img {
+        width: 350px;
+    }
+    
+    .planet-items {text-align: center;width: 100%;margin-top: 30px;}
+
+    .tiger-img {
+        position: relative;
+        right: 0;
+        width: 100%;
+        margin-top: 30px;
+        height: 51vw;
+    }
+    
+    .tiger-img .image-wrap img {
+        max-width: 100%;
+    }
+    
+    .tiger-img .image-wrap {
+        text-align: center;
+    }
+    .partnerboxes-platform h3 {
+        text-align: center;
+    }
+
+    .partnerboxes-platform h3 {text-align: center;}
+
+    .chart-your-own-path h2, .chart-your-own-path p {
+        text-align: center;
+    }
+    .partnerboxes-platform .partnerboxes-platform-item {
+        min-height: fit-content;
+    }
+    .blogpage-heading,
+    .about-banner .content-wrap h5 {
+        text-align: center;
+    }
+    .innovate::before {
+        background-position: center;
+            background-size: contain;
+    }
+    
+    .innovate {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .innovate-sec .content-wrap, .about-mission .content-wrap {
+        padding: 35px;
+    }
+    
+    section.innovate-sec .right-chunk {
+        position: relative;
+        right: 0;
+        bottom: 0;
+        text-align: center;
+    }
+    
+    section.innovate-sec .right-chunk img {
+        width: auto;
+        max-width: 100%;
+    }
+    section.innovate-sec,
+    section.about-mission {
+        padding: 25px 0;
+    }
+    .about-mission .left-chunk {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+    }
+    
+    .about-mission .left-chunk .chunk {
+        width: auto;
+        max-width: 100%;
+    }
+    
+    .about-mission .left-chunk .chunk-2 {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .about-mission .content-wrap{
+        margin: 0;
+    }
+    .galactic .title-wrap {
+        margin-bottom: 30px;
+    }
+    section.gethelp-page .hand {transform: translateY(-50%);}
+
+    section.gethelp-page .hand img {
+        width: 100%;
+    }
+    .gethelp-wrap .title-wrap h1, 
+    .gethelp-wrap .title-wrap h1 span,
+    .faq-page .cheading h2 {
+        margin-bottom: 20px;
+    }
+    .gethelp-wrap .title-wrap h5{
+        margin: 20px 0;
+    }
+    .faq-page .cheading h1{
+        margin-bottom: 25px;
+    }
+    .legal-document-banner .image-wrap {
+        margin-top: 70px;
+    }
+    .legal-document-banner .image-wrap img {
+        max-width: 100%;
+    }
+    .legal-document-banner.inner-banner .content-wrap p{
+        padding-right: 0;
+    }
+    .orbitslider {
+        margin-top: 50px;
+    }
+    .orbitslider img {
+        max-width: 100%;
+    }
+    .video-title .content-wrap{
+        padding-left: 0px;
+    }
+    .blog-wrapper-detail .d-flex.gap30 {
+        gap: 10px;
+        justify-content: center;
+    }
+  }
+  @media (max-width: 1024px) {
+
+    .rev-planet img.rev-planet-top {
+        position: relative;
+        left: calc(-40px);
+        width: 80px;
+    }
+    
+    .rev-planet {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .shares-banner .planet-left {
+        position: relative;
+        left: calc(50% - 40px);
+    }
+    
+    .shares-banner .planet-left img {
+        width: 80px;
+    }
+    section.inner-banner.account-types-banner.account-types.account-inner:before {
+        position: relative;
+        right: auto;
+        top: 0;
+        width: 80px;
+        height: 80px;
+        background-size: 100%;
+        left: calc(50% - 40px);
+    }
+    .shares-banner .planet-left::before {
+        display: none;
+    }
+    .f-menu-wrap{
+      margin-left: 50px;
+      gap: 80px;
+    }
+    .trading-fx-revolution:after {
+        background-size: 65% !important;
+        left: 50%;
+        transform: translateX(-50%);
+        background-position: center bottom;
+    }
+    
+    .trading-fx-revolution {
+        padding-bottom: 210px;
+    }
+    
+    .trading-fx-revolution .interstellar-wrapper {
+        align-items: center;
+    }
+    
+    .trading-fx-revolution .interstellar-wrapper button,
+    .trading-fx-revolution .interstellar-wrapper a,
+    .table-outer .btn-wrap {
+        margin-top: 25px;
+    }
+    .thumb-img a img {
+        width: 100%;
+    }
+    .blog-boxes p,
+    .blog-boxes h3{
+        text-align: center;
+    }
+    .blog-boxes .dateitem,
+    .blog-wrapper-detail .blog-boxes .dateitem {
+          display: table;
+          margin-left: auto;
+          margin-right: auto;
+      }    
+    
+      .blog-boxes .dateitem,
+      .blog-wrapper-detail .blog-boxes .dateitem {
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* boostrap xl End Point */
+  }
+  @media (max-width: 991px) {
+    .blog-wrapper-detail .dateitem{
+        margin: 0;
+    }
+    .debunking-area p, .debunking-area h5 {
+        text-align: center;
+        margin-bottom: 18px;
+    }
+      .debunking-area h5 {
+          margin-top: 18px;
+          color: var(--var-new);
+      }
+    .latest-upperlayer h3 {
+        text-align: center;
+    }
+    .latest-upperlayer h3:before,
+    .latest-upperlayer h3:after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .blog-wrapper-detail .d-flex.gap30 {
+        gap: 10px;
+        justify-content: center;
+    }
+    .dateitem {
+        text-align: center;
+        display: table;
+        margin: 0 auto;
+    }
+    .table-outer .content {
+        width: 100%;
+    }
+    .types-wrap {
+        border-top-right-radius: unset;
+    }
+    .table-outer .table-planet img {
+        display: none;
+    }
+    /* boostrap lg End Point */
+    .space-marketing-listing ul {
+        flex-direction: column;
+    }
+    .trading-fx-revolution .interstellar-wrapper h3 {
+        font-size: 28px;
+    }
+    
+    .trading-fx-revolution .interstellar-wrapper h4, .trading-fx-revolution .interstellar-wrapper h4 strong {
+        font-size: 24px;
+    }
+    section.trading-fx-revolution {
+        padding-bottom: 170px;
+    }
+    .trading-fx-revolution .interstellar-wrapper button,
+    .trading-fx-revolution .interstellar-wrapper a,
+    .table-outer .btn-small,
+    .sendmessage,
+    .home-banner a.btn,
+    .sub-content .content a.btn,
+    .affiliate-content .btn-wrap a,
+    .debunking-area .readmore,
+    .about-banner .btn-small,
+    .form-joinorbit .subscriber-btn,
+    .related-articales .see-all  {
+        height: 55px;
+        padding: 12px 20px;
+        font-size: 18px;
+        max-width: 100%;
+    }
+    .trading-fx-revolution .interstellar-wrapper button p,
+    .trading-fx-revolution .interstellar-wrapper a p,
+    .table-outer .btn-small p,
+    .sendmessage p,
+    .home-banner a.btn p,
+    .sub-content .content a.btn p,
+    .affiliate-content .btn-wrap a p,
+    .debunking-area .readmore p,
+    .about-banner .btn-small p,
+    .form-joinorbit .subscriber-btn p,
+    .related-articales .see-all p{
+        font-size: 18px !important;
+        margin: 0;
+    }
+    .debunking-area .readmore{
+        width: auto;
+    }
+    .form-joinorbit .subscriber-btn span {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    /* btn size _END */
+    .affiliate-content .btn-wrap {
+        margin-top: 30px;
+    }
+    .f-menu-wrap {
+      margin-left: 0px;
+    }
+  
+    footer p, footer .content .clr-new {
+        text-align: center;
+    }
+  
+    footer .logo {
+        text-align: center;
+    }
+  
+    .f-menu-wrap .footer-menu ul li a {
+        width: 100%;
+        text-align: center;
+    }
+    .f-menu-wrap .footer-menu h4 {
+        width: 100%;
+        text-align: center;
+    }
+    .f-menu-wrap {
+      justify-content: center;
+    }
+    .footer-wrap {
+      margin-bottom: 20px;
+    }
+  
+    .disclaimer-wrap .content {
+        padding: 30px 0;
+    }
+  
+    .disclaimer-wrap .content p:last-of-type {
+        margin-bottom: 0;
+    }
+    footer {
+        padding-bottom: 30px;
+    }
+    .forex-explore.concept-wrapper .heading-inner h2 {
+        margin-bottom: 30px;
+    }
+    .mountain-slider {
+        position: relative;
+        top: 0;
+    }
+
+    .mountain-slider img {
+        width: auto;
+        max-width: 100%;
+    }
+    
+    .types-wrap ul.wrap-ul .inner-wrap > li {
+        width: 33vw;
+    }
+    .types-wrap.payment-table {
+        justify-content: center;
+    }
+    .paymentmethod-wrapper .types-wrap .top-header li {
+        font-size: 18px;
+    }
+    /* boostrap lg End Point */
+    .latest-upperlayer {
+        position: relative;
+    }
+    .latestpost-area::before {
+        display: none;
+    }
+ 
+  }
+  
+  @media (max-width: 800px) {
+    .loader-logo img {
+        width: 250px;
+        height: auto;
+    }
+    
+    .loader {
+        width: 250px;
+    }
+    
+    .loader::before {width: 250px;}
+    @keyframes load {
+        0% {width: 0;}
+        100% {width: 250px;}
+        /* 100% {width: 0;} */
+        }
+    .gethelp-wrap {
+        padding: 30px 15px;
+    }
+    .innovate-sec .content-wrap {
+        padding: 35px;
+    }
+    .types-wrap ul.wrap-ul .inner-wrap > li {
+        width: 61vw;
+    }
+    .types-wrap .top-header.mobile-header {
+        width: 300px;
+    }
+    .trading-fx-revolution:after {
+        background-size: 100% !important;
+    }
+    section.trading-fx-revolution {
+        padding-bottom: 31%;
+    }
+    .trading-fx-revolution .interstellar-wrapper h3,
+    .trading-fx-revolution .interstellar-wrapper h4 {
+        text-align: center;
+    }
+    .affiliate-content {
+        padding: 45px 25px 40px;
+    }
+    
+  }
+  @media (max-width: 768px) {
+    .latest-upperlayer {
+        position: relative;
+    }
+    
+    .latestpost-area:before {
+        display: none;
+    }
+    .affiliate-content ul{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0;
+    }
+    .affiliate-content ul li img {
+        width: 100px;
+    }
+    .types-wrap ul.wrap-ul .inner-wrap > li {
+        width: 45vw;
+    }
+    .types-wrap .top-header.mobile-header {
+        width: 45vw;
+        flex: 0 0 50%;
+    }
+    .types-wrap ul.wrap-ul{
+        flex: 0 0 44%;
+    }
+    .types-wrap ul li {
+        font-size: 14px;
+    }
+    .types-wrap {
+        padding: 15px;
+        padding-bottom: 45px;
+    }
+    .next-arrow {
+        position: absolute;
+        right: calc(25%);
+        bottom: 4px;
+        transform: translateX(50%);
+      }
+    .f-menu-wrap{
+        gap: 15px;
+    }
+    .sub-content .sub-inner .image img{
+        max-width: 100%;
+    }
+  
+  }
+  
+  @media (max-width: 576px) {
+    .blogbanner img {
+        width: 100%;
+        aspect-ratio: 920 / 584;
+        border-bottom-right-radius: 110px;
+        border-bottom-left-radius: 110px;
+        overflow: hidden;
+    }
+    .sub-content .content h2 {
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+    .modal button.btn-close {
+        bottom: -60px;
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+    }
+    .indices-explore .heading-inner h3,
+    .concept-wrapper .heading-inner h2.f78 {
+        line-height: 1.2;
+    }
+    .video-title h2, .video-title h2 span {
+        line-height: 1;
+    }
+    .gethelp-wrap .title-wrap h5{
+        font-size: 26px;
+    }
+    .whatsapp-widget {
+        bottom: 25px;
+        right: 25px;
+    }
+
+    body {
+        zoom: 85%;
+    }
+    .contact-details h3 {
+        justify-content: center;
+    }
+    
+    .contact-details a {
+        display: table;
+        margin: 0 auto;
+    }
+    
+    .contact-details p {
+        text-align: center;
+        margin-bottom: 0;
+    }
+    
+    .contact-details .phonenumber, .contact-details .whatappsicon {
+        display: table;
+        margin: 0 auto 20px;
+    }
+    
+    .contact-details {
+        height: auto;
+    }
+    
+    .contact-details .whatappsicon {
+        margin-bottom: 0;
+    }
+    .form-joinorbit .sendmessage span {
+        left: 68%;
+    }
+    .related-articales .d-flex.justify-content-between.align-items-center.p-0 {
+        flex-direction: column;
+    }
+    /* .deposit-banner img {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    } */
+    .paymentmethod-wrapper .types-wrap .bottom-data {
+        padding: 10px 0;
+    }
+    
+    .paymentmethod-wrapper .types-wrap .bottom-data li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .paymentmethod-wrapper .types-wrap .top-header {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 18px;
+        padding-bottom: 18px;
+    }
+    .gethelp-wrap ul li a {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+    }
+    .banner .planet{
+        max-width: 100%;
+        height: auto;
+    }
+    .banner .planet-container {
+        /* height: 78vw; */
+        height: 98vw;
+        width: auto !important;
+    }
+    .swiper-pagination-tradeslide {
+        padding: 0 15px;
+    }
+    .swiper-slide-active .vid-inner .content {
+        bottom: 15px;
+        left: 0;
+        padding: 0px 30px;
+    }
+
+    .vid-inner .content span.description, .vid-inner .content span.date {
+        font-size: 14px;
+    }
+
+    .video-slider {
+        height: 76vw;
+    }
+    .vid-inner a.video-btn {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .vid-inner a.video-btn img {
+        width: 60px;
+    }
+    .paymentmethod-wrapper ul.bottom-data li:first-child img {width: 95px;height: auto;max-width: max-content;}
+    .paymentmethod-wrapper ul.bottom-data li:first-child img.pay-exchange{
+        width: 100px;
+    }
+    .paymentmethod-wrapper ul.bottom-data li img {
+        width: 25px;
+    }
+    .paymentmethod-wrapper .types-wrap .top-header li {
+        padding: 0 5px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .f-menu-wrap {
+        flex-direction: column;
+    }
+    /* .sub-content .content{
+        padding: 15px 15px 15px;
+    } */
+    .sub-content .content {
+        padding: 15px 15px 15px;
+        margin: 0 35px;
+        width: auto;
+        border-radius: 35px;
+    }
+    .sub-content .content p {
+        /* font-size: clamp(18px, 7vw, 20px); */
+        font-size: 17px;
+    }
+    .sub-content .content span {
+        /* font-size: clamp(18px, 7vw, 26px); */
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .sub-content .sub-inner .image img {
+        width: -webkit-fill-available;
+        margin: 0 40px;
+    }
+    .help-para,
+    .contact-us-page .cheading,
+    .contact-us-page form,
+    .contact-details {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+    .inner-banner.withdrawal-banner .content-wrap h1 strong,
+    .inner-banner.withdrawal-banner .content-wrap h1 b,
+     .help-para h3, .help-para h2 {
+        font-size: 2rem;
+    }
+    .with-help .form-joinorbit,
+    .deposit-help .form-joinorbit,
+    .join-our-orbit .content-wrap {
+        margin: 0 35px;
+    }
+    footer .logo {
+        margin-bottom: 15px;
+    }
+    .footer-info .logo img{
+        max-width: 100%;
+    }
+    .trading-fx-revolution .interstellar-wrapper h4:after {
+        width: 200vw;
+        left: -50%;
+    }
+    .banner .planet {
+        padding-right: 0%;
+        transform: translateX(-54.6%);
+    }
+    .inner-banner .content-wrap p,
+    .affilite-banner.inner-banner .content-wrap p,
+    .innovate-sec .content-wrap p, 
+    .about-mission .content-wrap p, 
+    .inner-banner.join-our-orbit .content-wrap h1 strong,
+    .inner-banner.join-our-orbit .content-wrap p,
+    .debunking-area p {
+        font-size: 18px;
+        line-height: 36px;
+    }
+    .inner-banner.deposit-banner .content-wrap p,
+    .inner-banner.withdrawal-banner .content-wrap p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 36px;
+    }
+    .innovate .content-wrap p {
+        font-size: 22px;
+        line-height: 45px;
+    }
+  }
+  @media (max-width: 420px) {
+    header .logo img {
+        width: 220px;
+    }
+  }

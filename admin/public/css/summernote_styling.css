@@ -1,0 +1,33 @@
+/* Custom font sizes for headings */
+.note-editor>.note-editing-area {
+    background-color: #d9dce0; /** lightgray **/
+}
+
+.note-editor>.note-editing-area h1,     .webpage .main_title h1 { font-size: 85px !important; }
+.note-editor>.note-editing-area h2,     .webpage .main_title h2 { font-size: 84px !important; }
+.note-editor>.note-editing-area h3,     .webpage .main_title h3 { font-size: 60px !important; }
+.note-editor>.note-editing-area h4,     .webpage .main_title h4 { font-size: 55px !important; }
+.note-editor>.note-editing-area h5,     .webpage .main_title h5 { font-size: 46px !important; }
+.note-editor>.note-editing-area h6,     .webpage .main_title h6 { font-size: 42px !important; }
+
+.note-editor>.note-editing-area h1 b, .note-editor>.note-editing-area h2 b, .note-editor>.note-editing-area h3 b,  .note-editor>.note-editing-area h4 b,     
+.main_title>h1 b, .main_title>h2 b, .main_title>h3 b, .main_title>h4 b{font-weight: 900 !important;}
+
+.note-editor>.note-editing-area h6 b,   .main_title>h6 b{font-weight: 700 !important;}
+
+blockquote { position: relative; padding: 2px 15px; }
+blockquote>p, blockquote>span { margin: 0px; padding: 0px; }
+blockquote:after {
+    background-color: #FF5757;
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+}
+.pre_footer blockquote{ padding: 8px 10px 3px 8px; }
+.pre_footer blockquote:after { width: 100vw; }
+
+a.btn>p { margin-bottom: 0px; }
