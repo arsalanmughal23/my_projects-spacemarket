@@ -2,34 +2,42 @@
 set -e
 
 PROJECT_ROOT=/var/www/html
+APP_USER=www-data
 
-echo "→ Fixing storage/cache permissions..."
+echo "→ Ensuring storage/cache dirs exist..."
 mkdir -p "$PROJECT_ROOT/storage/logs" \
          "$PROJECT_ROOT/storage/framework/cache" \
          "$PROJECT_ROOT/storage/framework/sessions" \
          "$PROJECT_ROOT/storage/framework/views" \
          "$PROJECT_ROOT/bootstrap/cache"
 
+# Only chown if ownership is actually wrong (fast no-op otherwise)
+if [ "$(stat -c '%u' "$PROJECT_ROOT/storage")" != "$(id -u $APP_USER)" ]; then
+    echo "→ Fixing storage/cache ownership..."
+    chown -R $APP_USER:$APP_USER "$PROJECT_ROOT/storage" "$PROJECT_ROOT/bootstrap/cache"
+fi
+
 echo "→ Ensuring .env exists..."
 if [ ! -f "$PROJECT_ROOT/.env" ]; then
     if [ -f "$PROJECT_ROOT/.env.example" ]; then
         cp "$PROJECT_ROOT/.env.example" "$PROJECT_ROOT/.env"
+        chown $APP_USER:$APP_USER "$PROJECT_ROOT/.env"
         echo "   Created .env from .env.example"
     else
-        echo "   ERROR: .env and .env.example both missing — aborting."
+        echo "   ERROR: no .env or .env.example — aborting."
         exit 1
     fi
 fi
 
-echo "→ Running composer install..."
+echo "→ Running composer install (as $APP_USER)..."
 if [ ! -d "$PROJECT_ROOT/vendor" ]; then
-    composer install --no-interaction --prefer-dist --optimize-autoloader
-    chown -R www-data:www-data "$PROJECT_ROOT/vendor"
+    gosu $APP_USER composer install \
+        --no-interaction --prefer-dist --optimize-autoloader
 fi
 
 echo "→ Generating app key (if missing)..."
-if ! grep -q "^APP_KEY=base64:" "$PROJECT_ROOT/.env"; then
-    php "$PROJECT_ROOT/artisan" key:generate --force
+if ! grep -qE "^APP_KEY=base64:[A-Za-z0-9+/=]{43,44}$" "$PROJECT_ROOT/.env"; then
+    gosu $APP_USER php "$PROJECT_ROOT/artisan" key:generate --force
 fi
 
 echo "→ Ensuring SQLite database file exists..."
@@ -43,22 +51,21 @@ if [ "$DB_CONN" = "sqlite" ]; then
         /*) FULL_PATH="$DB_PATH" ;;
         *)  FULL_PATH="$PROJECT_ROOT/$DB_PATH" ;;
     esac
-
     mkdir -p "$(dirname "$FULL_PATH")"
     if [ ! -f "$FULL_PATH" ]; then
         touch "$FULL_PATH"
         echo "   Created SQLite file at $FULL_PATH"
     fi
-    chown www-data:www-data "$FULL_PATH"
-    chmod 664 "$FULL_PATH"
+    chown $APP_USER:$APP_USER "$FULL_PATH"
 fi
 
 echo "→ Running migrations..."
-php "$PROJECT_ROOT/artisan" migrate --force
+gosu $APP_USER php "$PROJECT_ROOT/artisan" migrate --force
 
 echo "→ Running seeders (first run only)..."
 if [ ! -f "$PROJECT_ROOT/storage/.seeded" ]; then
-    php "$PROJECT_ROOT/artisan" db:seed --force && touch "$PROJECT_ROOT/storage/.seeded"
+    gosu $APP_USER php "$PROJECT_ROOT/artisan" db:seed --force && \
+        touch "$PROJECT_ROOT/storage/.seeded"
 else
     echo "   Skipping — seeder marker exists."
 fi

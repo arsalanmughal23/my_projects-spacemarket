@@ -6,8 +6,6 @@ services:
         UID: 1000
         GID: 1000
     image: ${PROJECT_SLUG}_php
-    env_file:
-      - ./.env
     volumes:
       - .:/var/www/html
       - ./php.ini:/usr/local/etc/php/php.ini
