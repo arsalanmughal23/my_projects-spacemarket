@@ -1,8 +1,10 @@
-version: '3'
-
 services:
   php:
-    build: .
+    build:
+      context: .
+      args:
+        UID: 1000
+        GID: 1000
     image: ${PROJECT_SLUG}_php
     env_file:
       - ./.env

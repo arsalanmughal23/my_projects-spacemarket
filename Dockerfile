@@ -1,9 +1,13 @@
-# Use the official PHP 8.2 image
 FROM php:8.1-fpm
 
-# Install dependencies
+ARG UID=1000
+ARG GID=1000
+RUN groupmod -o -g ${GID} www-data && \
+    usermod -o -u ${UID} -g ${GID} www-data
+
 RUN apt-get update && apt-get install -y \
     git \
+    nano \
     unzip \
     libzip-dev \
     libpng-dev \
@@ -14,23 +18,17 @@ RUN apt-get update && apt-get install -y \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-# Set working directory
+# Install Composer
+RUN curl -sS https://getcomposer.org/installer | php -- \
+    --install-dir=/usr/local/bin --filename=composer
+
 WORKDIR /var/www/html
 
-# Copy project files into the container
-COPY . /var/www/html
+# Copy entrypoint
+COPY docker/entrypoint.sh /usr/local/bin/entrypoint.sh
+RUN chmod +x /usr/local/bin/entrypoint.sh
 
-# Install Composer
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-
-# Set Composer home to /var/www/html
-ENV COMPOSER_HOME /var/www/html
-
-# Install project dependencies
-RUN composer install
-
-# Change permissions for storage folder
-RUN chmod -R 777 /var/www/html/storage
-
-# Expose port 9000 for PHP-FPM
 EXPOSE 9000
+
+ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
+CMD ["php-fpm"]
