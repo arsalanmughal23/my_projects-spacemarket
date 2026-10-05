@@ -84,7 +84,7 @@ Boilerplate will create tables and insert basic users, roles, permissions in the
 
 -   Super admin (development admin)
 
-    -   'email' => "super-admin@boilerplate.com"
+    -   'email' => "super-admin@yopmail.com"
     -   'password' => '123456'
 
     -   'email' => "wendy@spacemarkets.io"

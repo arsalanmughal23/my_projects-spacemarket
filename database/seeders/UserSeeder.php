@@ -5,7 +5,7 @@ namespace Database\Seeders;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use App\Models\User;
-
+use Illuminate\Support\Facades\Hash;
 
 class UserSeeder extends Seeder
 {
@@ -18,8 +18,8 @@ class UserSeeder extends Seeder
     {
         User::create([
             'name' => 'super-admin',
-            'email' => 'super-admin@boilerplate.com',
-            'password' => '123456',
+            'email' => 'super-admin@yopmail.com',
+            'password' => Hash::make('123456'),
         ]);
 
         DB::table('roles')->insert([
